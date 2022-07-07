@@ -8,7 +8,7 @@ steps:
     - '-d'
     - '-r'
     - 'dags'
-    - 'gs://us-central1-test-0009-0c42140b-bucket/dags'
+    - 'gs://us-central1-composer-001-9e98822f-bucket/dags'
 - name: gcr.io/cloud-builders/gsutil
   args:
     - '-m'
@@ -16,4 +16,4 @@ steps:
     - '-d'
     - '-r'
     - 'plugins'
-    - 'gs://us-central1-test-0009-0c42140b-bucket/plugins'
+    - 'gs://us-central1-composer-001-9e98822f-bucket/plugins'
